@@ -330,31 +330,6 @@ The frontend is deployed using Streamlit Community Cloud.
 
 ---
 
-
-
-## 🔍 Example Prediction
-
-The system performs binary classification:
-
-
-Input Transaction
-       ↓
-   Preprocessing
-       ↓
- Machine Learning Model
-       ↓
-    Prediction
-       ↓
- ┌───────────────┐
- │               │
- ▼               ▼
-Class 0         Class 1
-Legitimate      Fraudulent
-
-
----
-
-
 ## 👨‍💻 Project Information
 
 **Project:** Credit Card Fraud Detection
