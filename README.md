@@ -124,24 +124,16 @@ All fraudulent transactions from the original dataset were retained in the small
 
 ## 🤖 Machine Learning
 
-Fraud detection is treated as a **binary classification problem**.
+Random Forest Classification
 
-The model learns patterns from historical transaction data and predicts one of two classes:
+The machine learning model used in this project is a Random Forest Classifier from the Scikit-learn library.
 
+The model was trained as a binary classification model to distinguish between legitimate and fraudulent credit card transactions.
 
-Class 0 → Legitimate Transaction
+The target variable is the Class column:
 
-Class 1 → Fraudulent Transaction
-
-
-The dataset contains anonymized numerical features such as:
-
-* `Time`
-* `Amount`
-* `V1` through `V28`
-* `Class`
-
-The anonymized `V1`–`V28` features represent transformed transaction characteristics.
+0 → Legitimate Transaction
+1 → Fraudulent Transaction
 
 ---
 
