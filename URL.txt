@@ -1,0 +1,7 @@
+Backend URL on render:
+
+https://frauddetection-qd3r.onrender.com/
+
+Frontend URL on streamlit
+
+https://frauddetection-aap6esb9ycyikrjdneh8nu.streamlit.app/
